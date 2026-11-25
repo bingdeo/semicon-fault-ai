@@ -1,0 +1,21 @@
+{
+  "run_id": "A-E1-baseline-v2_ensemble_cv_seed42",
+  "model": "ensemble_cv",
+  "model_version": "scikit-learn=1.7.2;xgboost=3.2.0",
+  "best_parameters": {
+    "model_order": [
+      "logistic_regression_cv",
+      "xgboost_cv",
+      "extratrees_cv"
+    ],
+    "weights": [
+      0.2,
+      0.7,
+      0.1
+    ]
+  },
+  "development_oof_average_precision": 0.1554466815185769,
+  "selected_threshold": 0.20378269028513482,
+  "selected_feature_count": null,
+  "selected_before_test": true
+}

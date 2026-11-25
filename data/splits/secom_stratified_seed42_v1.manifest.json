@@ -1,0 +1,58 @@
+{
+  "split_id": "secom_stratified_seed42_v1",
+  "strategy": "stratified",
+  "random_seed": 42,
+  "sha256": "e94af14fabaa0b951fd940fe18d15e47d758b54148ea35dcfaff35c05c5c39ea",
+  "summary": {
+    "train": {
+      "rows": 940,
+      "pass": 878,
+      "fail": 62,
+      "fail_rate": 0.06595744680851064,
+      "timestamp_min": "2008-07-19T11:55:00",
+      "timestamp_max": "2008-10-17T06:07:00"
+    },
+    "validation": {
+      "rows": 313,
+      "pass": 292,
+      "fail": 21,
+      "fail_rate": 0.0670926517571885,
+      "timestamp_min": "2008-07-19T12:32:00",
+      "timestamp_max": "2008-10-17T05:26:00"
+    },
+    "test": {
+      "rows": 314,
+      "pass": 293,
+      "fail": 21,
+      "fail_rate": 0.06687898089171974,
+      "timestamp_min": "2008-07-19T21:35:00",
+      "timestamp_max": "2008-10-17T06:01:00"
+    }
+  },
+  "time_order_feasibility_audit": {
+    "train": {
+      "rows": 940,
+      "pass": 864,
+      "fail": 76,
+      "fail_rate": 0.08085106382978724,
+      "timestamp_min": "2008-07-19T11:55:00",
+      "timestamp_max": "2008-09-20T05:34:00"
+    },
+    "validation": {
+      "rows": 313,
+      "pass": 302,
+      "fail": 11,
+      "fail_rate": 0.03514376996805112,
+      "timestamp_min": "2008-09-20T06:08:00",
+      "timestamp_max": "2008-10-02T19:25:00"
+    },
+    "test": {
+      "rows": 314,
+      "pass": 297,
+      "fail": 17,
+      "fail_rate": 0.054140127388535034,
+      "timestamp_min": "2008-10-02T20:54:00",
+      "timestamp_max": "2008-10-17T06:07:00"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and package builds
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Environment variables and local configuration
+.env
+.env.*
+!.env.example
+
+# Raw/processed datasets must not be committed.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated experiment outputs
+results/*
+!results/.gitkeep
+!results/metrics.csv
+!results/evaluation_summary.csv
+!results/baseline_v2_pretest_selection.json
+!results/predictions/
+!results/predictions/.gitkeep
+!results/figures/
+!results/figures/.gitkeep
+!results/tuning/
+!results/tuning/*.csv
+!results/models/
+results/models/*
+!results/models/*.json
+
+# Downloaded model weights and local caches
+checkpoints/
+/models/
+.cache/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# Local logs
+*.log
+
+# Local documentation (do not push yet)
+README.md
+reports/
+*.pdf

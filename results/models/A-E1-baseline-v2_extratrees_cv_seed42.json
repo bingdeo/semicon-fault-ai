@@ -1,0 +1,19 @@
+{
+  "run_id": "A-E1-baseline-v2_extratrees_cv_seed42",
+  "model": "extratrees_cv",
+  "model_version": "1.7.2",
+  "best_parameters": {
+    "model__n_estimators": 400,
+    "model__min_samples_leaf": 1,
+    "model__max_features": 0.35,
+    "model__max_depth": null,
+    "model__criterion": "entropy",
+    "model__class_weight": "balanced_subsample",
+    "model__bootstrap": true,
+    "column_filter__max_missing_fraction": 0.95
+  },
+  "development_oof_average_precision": 0.14477682778971301,
+  "selected_threshold": 0.12,
+  "selected_feature_count": 474,
+  "selected_before_test": false
+}

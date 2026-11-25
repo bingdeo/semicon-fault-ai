@@ -1,0 +1,23 @@
+{
+  "selection_basis": "development OOF average precision only",
+  "development_rows": 1253,
+  "development_failures": 83,
+  "oof_scores": {
+    "logistic_regression_cv": 0.1392972071710632,
+    "xgboost_cv": 0.14457829002864359,
+    "extratrees_cv": 0.14477682778971301,
+    "ensemble_cv": 0.1554466815185769
+  },
+  "ensemble_order": [
+    "logistic_regression_cv",
+    "xgboost_cv",
+    "extratrees_cv"
+  ],
+  "ensemble_weights": [
+    0.2,
+    0.7,
+    0.1
+  ],
+  "ensemble_oof_score": 0.1554466815185769,
+  "selected_before_test": "ensemble_cv"
+}

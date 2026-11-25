@@ -1,0 +1,22 @@
+{
+  "run_id": "A-E1-baseline-v2_xgboost_cv_seed42",
+  "model": "xgboost_cv",
+  "model_version": "3.2.0",
+  "best_parameters": {
+    "model__subsample": 1.0,
+    "model__scale_pos_weight": 3.8,
+    "model__reg_lambda": 20.0,
+    "model__reg_alpha": 1.0,
+    "model__n_estimators": 250,
+    "model__min_child_weight": 12,
+    "model__max_depth": 5,
+    "model__learning_rate": 0.05,
+    "model__gamma": 0.5,
+    "model__colsample_bytree": 0.5,
+    "column_filter__max_missing_fraction": 1.0
+  },
+  "development_oof_average_precision": 0.14457829002864359,
+  "selected_threshold": 0.14771023392677307,
+  "selected_feature_count": 474,
+  "selected_before_test": false
+}
